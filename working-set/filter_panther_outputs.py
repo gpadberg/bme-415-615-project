@@ -7,6 +7,7 @@ processes are most enriched in each gene set.
 
 import pandas as pd
 from pathlib import Path
+import csv
 
 root = Path(__file__).resolve().parent # path to the folder holding this file
 
@@ -48,7 +49,47 @@ heat_down_top = heat_down_sig.nsmallest(n, "FDR")
 salt_up_top   = salt_up_sig.nsmallest(n, "FDR")
 salt_down_top = salt_down_sig.nsmallest(n, "FDR")
 
-print(heat_up_top)
-print(heat_down_top)
-print(salt_up_top)
-print(salt_down_top)
+export_path = panther_file_root / "top_GO_terms"
+export_path.mkdir(exist_ok=True)
+
+# Choose a term column that usually exists in BP outputs
+TERM_COL = "GO biological process complete"
+
+# Pick the columns you care about (only keep ones that exist)
+def pick_cols(df):
+    wanted = [TERM_COL, "Fold Enrichment", "FDR", "P-value", "# in Query", "# in Reference", "Expected"]
+    return [c for c in wanted if c in df.columns]
+
+results = {
+    "heat_up": (heat_up_sig, heat_up_top),
+    "heat_down": (heat_down_sig, heat_down_top),
+    "salt_up": (salt_up_sig, salt_up_top),
+    "salt_down": (salt_down_sig, salt_down_top),
+}
+
+# Export per-condition files (full significant + top 15)
+for name, (sig_df, top_df) in results.items():
+    cols_sig = pick_cols(sig_df)
+    cols_top = pick_cols(top_df)
+
+    # export all significant as TSV
+    # TSV is tab separated while CSV is comma separated
+    # TSV may be good for processing since some GO terms have commas in them
+    sig_df[cols_sig].to_csv(export_path / f"{name}_GO_significant.tsv", sep="\t", index=False)
+
+    # export top 15 as CSV
+    # these will be good for putting into tables for the actual report paper
+    # CSVs are easier to open in Excel
+    top_df[cols_top].to_csv(export_path / f"{name}_GO_top15.csv", index=False, quoting=csv.QUOTE_MINIMAL)
+
+# Creates a master file with all top 15 GO terms from each condition
+# This will be useful for plotting comparisons
+combined = []
+for name, (_, top_df) in results.items():
+    df = top_df.copy()
+    df = df[pick_cols(df)]
+    df.insert(0, "condition", name)
+    combined.append(df)
+
+combined_df = pd.concat(combined, ignore_index=True)
+combined_df.to_csv(export_path / "all_conditions_GO_top15.csv", index=False)
