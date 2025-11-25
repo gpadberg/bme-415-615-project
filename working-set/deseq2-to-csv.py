@@ -1,31 +1,50 @@
-# The purpose of this program is to process the DESeq2 datasets from our data processing step, filter the data based on significance, 
-# and output the result in CSV format.
+# Process DESeq2 datasets, filter significant genes, and save cleaned CSV outputs.
 
 import pandas as pd
 
-## Process salt DESeq2 results
-salt = pd.read_csv("DESeq2_datasets/salt.tabular", sep="\t", header=None)
-salt.columns = ["gene_id", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"]
 
-# Filter for significant genes
-sig_salt = salt[(salt['padj'] < 0.05) & (abs(salt['log2FoldChange']) >= 1)]
+def process_deseq_file(input_path, output_path, lfc_threshold=1.0, padj_threshold=0.05):
+    """
+    Process a DESeq2 .tabular file:
+      - Assign column names
+      - Filter significant genes
+      - Label as up/down regulated
+      - Save to CSV
+    """
+    # Read the DESeq2 output
+    df = pd.read_csv(input_path, sep="\t", header=None)
+    df.columns = ["gene_id", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"]
 
-# Label up/downregulated genes
-sig_salt.loc[:, 'regulation'] = sig_salt['log2FoldChange'].apply(lambda x: 'up' if x >= 1 else 'down')
+    # Ensure columns are numeric
+    df["log2FoldChange"] = pd.to_numeric(df["log2FoldChange"], errors="coerce")
+    df["padj"] = pd.to_numeric(df["padj"], errors="coerce")
 
-# Save filtered table
-sig_salt.to_csv("CSV_datasets/salt_significant_genes.csv", index=False)
+    # Filter by significance thresholds
+    sig = df[
+        (df["padj"] < padj_threshold) &
+        (df["log2FoldChange"].abs() >= lfc_threshold)
+    ].copy()
+
+    # Add regulation column
+    sig["regulation"] = sig["log2FoldChange"].apply(
+        lambda x: "up" if x >= lfc_threshold else "down"
+    )
+
+    # Save the cleaned dataset
+    sig.to_csv(output_path, index=False)
+    print(f"Saved: {output_path} (n={len(sig)})")
 
 
-## Process heat DESeq2 results
-heat = pd.read_csv("DESeq2_datasets/heat.tabular", sep="\t", header=None)
-heat.columns = ["gene_id", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"]
+# Run the processing
 
-# Filter for significant genes
-sig_heat = heat[(heat['padj'] < 0.05) & (abs(heat['log2FoldChange']) >= 1)]
+# Salt
+process_deseq_file(
+    input_path="DESeq2_datasets/salt.tabular",
+    output_path="CSV_datasets/salt_significant_genes.csv"
+)
 
-# Label up/downregulated genes
-sig_heat.loc[:, 'regulation'] = sig_heat['log2FoldChange'].apply(lambda x: 'up' if x >= 1 else 'down')
-
-# Save filtered table
-sig_heat.to_csv("CSV_datasets/heat_significant_genes.csv", index=False)
+# Heat
+process_deseq_file(
+    input_path="DESeq2_datasets/heat.tabular",
+    output_path="CSV_datasets/heat_significant_genes.csv"
+)
