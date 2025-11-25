@@ -1,0 +1,115 @@
+GO biological process complete	FDR
+gibberellic acid transmembrane transport (GO:1905200)	0.0451
+cinnamic acid ester metabolic process (GO:0009801)	0.0447
+seed growth (GO:0080112)	0.00759
+glutamine transport (GO:0006868)	0.00146
+glucosinolate transport (GO:1901349)	0.00142
+phloem loading (GO:0110126)	0.00264
+suberin biosynthetic process (GO:0010345)	1.01e-11
+phloem transport (GO:0010233)	1.88e-05
+vascular transport (GO:0010232)	1.79e-05
+vascular process in circulatory system (GO:0003018)	1.72e-05
+circulatory system process (GO:0003013)	1.65e-05
+system process (GO:0003008)	1.59e-05
+neutral amino acid transport (GO:0015804)	0.000188
+cutin biosynthetic process (GO:0010143)	0.00597
+phenylpropanoid metabolic process (GO:0009698)	3.18e-16
+phenylpropanoid biosynthetic process (GO:0009699)	6.38e-11
+stress response to metal ion (GO:0097501)	0.0172
+secondary metabolite biosynthetic process (GO:0044550)	3.5e-11
+multicellular organismal-level iron ion homeostasis (GO:0060586)	0.0496
+response to metal ion starvation (GO:0180055)	0.0492
+secondary metabolic process (GO:0019748)	2.77e-17
+flavonoid biosynthetic process (GO:0009813)	0.00039
+xenobiotic detoxification by transmembrane export across the plasma membrane (GO:1990961)	0.00755
+xenobiotic export from cell (GO:0046618)	0.00744
+flavonoid metabolic process (GO:0009812)	0.00031
+lignin metabolic process (GO:0009808)	0.00217
+cutin-based cuticle development (GO:0160062)	0.0228
+induced systemic resistance (GO:0009682)	0.0484
+amine biosynthetic process (GO:0009309)	0.0281
+biogenic amine biosynthetic process (GO:0042401)	0.0278
+biogenic amine metabolic process (GO:0006576)	0.00757
+cell surface receptor protein serine/threonine kinase signaling pathway (GO:0007178)	0.0228
+enzyme-linked receptor protein signaling pathway (GO:0007167)	0.0225
+xenobiotic transport (GO:0042908)	0.021
+hydrogen peroxide catabolic process (GO:0042744)	0.00398
+export across plasma membrane (GO:0140115)	0.00391
+hydrogen peroxide metabolic process (GO:0042743)	0.00257
+defense response to oomycetes (GO:0002229)	0.0255
+amino acid transport (GO:0006865)	0.0334
+organic acid transport (GO:0015849)	0.00464
+detoxification (GO:0098754)	1.56e-07
+amine metabolic process (GO:0009308)	0.0257
+response to toxic substance (GO:0009636)	2.85e-07
+carboxylic acid transport (GO:0046942)	0.0385
+inorganic anion transport (GO:0015698)	0.0238
+cellular detoxification (GO:1990748)	0.00598
+inorganic ion homeostasis (GO:0098771)	0.00421
+cellular response to toxic substance (GO:0097237)	0.00628
+cellular oxidant detoxification (GO:0098869)	0.0222
+reactive oxygen species metabolic process (GO:0072593)	0.0483
+export from cell (GO:0140352)	0.0402
+defense response to symbiont (GO:0140546)	0.000922
+immune response (GO:0006955)	0.00217
+innate immune response (GO:0045087)	0.00591
+response to starvation (GO:0042594)	0.0394
+response to metal ion (GO:0010038)	0.0313
+immune system process (GO:0002376)	0.00641
+defense response to other organism (GO:0098542)	0.00218
+defense response to bacterium (GO:0042742)	0.00703
+transmembrane transport (GO:0055085)	9.39e-08
+response to bacterium (GO:0009617)	0.019
+lipid metabolic process (GO:0006629)	0.0244
+biological process involved in interspecies interaction between organisms (GO:0044419)	0.00268
+response to external biotic stimulus (GO:0043207)	0.00326
+response to other organism (GO:0051707)	0.0032
+response to biotic stimulus (GO:0009607)	0.00414
+defense response (GO:0006952)	0.00289
+response to chemical (GO:0042221)	5.82e-06
+transport (GO:0006810)	0.000416
+establishment of localization (GO:0051234)	0.00145
+localization (GO:0051179)	0.00138
+response to external stimulus (GO:0009605)	0.0306
+response to stress (GO:0006950)	0.000472
+response to stimulus (GO:0050896)	1.17e-07
+cellular component organization or biogenesis (GO:0071840)	0.0324
+primary metabolic process (GO:0044238)	2.95e-06
+protein metabolic process (GO:0019538)	0.00144
+organelle organization (GO:0006996)	0.0328
+macromolecule metabolic process (GO:0043170)	1.46e-10
+macromolecule localization (GO:0033036)	0.0314
+negative regulation of macromolecule metabolic process (GO:0010605)	0.0352
+macromolecule biosynthetic process (GO:0009059)	1.49e-11
+cellular localization (GO:0051641)	0.00955
+negative regulation of macromolecule biosynthetic process (GO:0010558)	0.0112
+RNA metabolic process (GO:0016070)	1.14e-07
+negative regulation of biosynthetic process (GO:0009890)	0.00869
+nucleobase-containing compound metabolic process (GO:0006139)	3.46e-13
+nucleic acid metabolic process (GO:0090304)	1.71e-11
+nucleobase-containing compound biosynthetic process (GO:0034654)	1.39e-08
+RNA biosynthetic process (GO:0032774)	6.77e-07
+nucleic acid biosynthetic process (GO:0141187)	1.17e-07
+intracellular transport (GO:0046907)	0.0113
+gene expression (GO:0010467)	2.72e-13
+DNA metabolic process (GO:0006259)	0.00822
+protein transport (GO:0015031)	0.000714
+cell division (GO:0051301)	0.0464
+translation (GO:0006412)	0.00214
+negative regulation of gene expression (GO:0010629)	0.0481
+establishment of protein localization (GO:0045184)	0.000106
+intracellular protein localization (GO:0008104)	3.8e-05
+RNA processing (GO:0006396)	2.26e-06
+mRNA metabolic process (GO:0016071)	0.00047
+sexual reproduction (GO:0019953)	0.0466
+intracellular protein transport (GO:0006886)	0.0479
+chromatin remodeling (GO:0006338)	0.0217
+chromatin organization (GO:0006325)	0.0044
+mRNA processing (GO:0006397)	0.00102
+rRNA processing (GO:0006364)	0.0278
+rRNA metabolic process (GO:0016072)	0.0228
+ribosome biogenesis (GO:0042254)	0.00322
+RNA splicing (GO:0008380)	0.00442
+ribonucleoprotein complex biogenesis (GO:0022613)	0.000234
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	0.0491
+RNA splicing, via transesterification reactions (GO:0000375)	0.0487

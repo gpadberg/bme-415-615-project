@@ -1,0 +1,16 @@
+GO biological process complete,FDR
+nucleic acid metabolic process (GO:0090304),1.52e-06
+macromolecule metabolic process (GO:0043170),3.88e-06
+nucleobase-containing compound metabolic process (GO:0006139),2.28e-05
+gene expression (GO:0010467),8.59e-05
+RNA metabolic process (GO:0016070),0.000102
+nucleic acid biosynthetic process (GO:0141187),0.00044
+macromolecule biosynthetic process (GO:0009059),0.000598
+RNA biosynthetic process (GO:0032774),0.000957
+protein metabolic process (GO:0019538),0.00152
+thalianol metabolic process (GO:0080003),0.00224
+nucleobase-containing compound biosynthetic process (GO:0034654),0.00694
+RNA processing (GO:0006396),0.00974
+macromolecule modification (GO:0043412),0.00976
+cell-cell signaling involved in cell fate commitment (GO:0045168),0.00989
+triterpenoid metabolic process (GO:0006722),0.01

@@ -1,0 +1,53 @@
+condition,GO biological process complete,FDR
+heat_up,nucleic acid metabolic process (GO:0090304),1.52e-06
+heat_up,macromolecule metabolic process (GO:0043170),3.88e-06
+heat_up,nucleobase-containing compound metabolic process (GO:0006139),2.28e-05
+heat_up,gene expression (GO:0010467),8.59e-05
+heat_up,RNA metabolic process (GO:0016070),0.000102
+heat_up,nucleic acid biosynthetic process (GO:0141187),0.00044
+heat_up,macromolecule biosynthetic process (GO:0009059),0.000598
+heat_up,RNA biosynthetic process (GO:0032774),0.000957
+heat_up,protein metabolic process (GO:0019538),0.00152
+heat_up,thalianol metabolic process (GO:0080003),0.00224
+heat_up,nucleobase-containing compound biosynthetic process (GO:0034654),0.00694
+heat_up,RNA processing (GO:0006396),0.00974
+heat_up,macromolecule modification (GO:0043412),0.00976
+heat_up,cell-cell signaling involved in cell fate commitment (GO:0045168),0.00989
+heat_up,triterpenoid metabolic process (GO:0006722),0.01
+heat_down,cellular process (GO:0009987),2.19e-07
+heat_down,metabolic process (GO:0008152),0.0358
+heat_down,ATP biosynthetic process (GO:0006754),0.0372
+heat_down,response to stimulus (GO:0050896),0.0405
+heat_down,purine nucleoside triphosphate biosynthetic process (GO:0009145),0.0412
+heat_down,cellular response to stimulus (GO:0051716),0.0444
+heat_down,purine ribonucleoside triphosphate biosynthetic process (GO:0009206),0.047
+salt_up,response to chemical (GO:0042221),8.759999999999999e-40
+salt_up,cellular response to hypoxia (GO:0071456),6.13e-33
+salt_up,cellular response to decreased oxygen levels (GO:0036294),6.26e-33
+salt_up,response to hypoxia (GO:0001666),6.65e-33
+salt_up,cellular response to oxygen levels (GO:0071453),7.13e-33
+salt_up,response to decreased oxygen levels (GO:0036293),2.3100000000000002e-32
+salt_up,response to oxygen levels (GO:0070482),3.72e-32
+salt_up,response to stimulus (GO:0050896),8.72e-25
+salt_up,cellular response to chemical stimulus (GO:0070887),2.97e-24
+salt_up,response to abiotic stimulus (GO:0009628),1.0799999999999999e-23
+salt_up,response to wounding (GO:0009611),2.1200000000000003e-21
+salt_up,response to oxygen-containing compound (GO:1901700),4.4900000000000005e-21
+salt_up,response to endogenous stimulus (GO:0009719),6.02e-21
+salt_up,response to hormone (GO:0009725),6.28e-21
+salt_up,response to stress (GO:0006950),1.34e-20
+salt_down,secondary metabolic process (GO:0019748),2.77e-17
+salt_down,phenylpropanoid metabolic process (GO:0009698),3.18e-16
+salt_down,gene expression (GO:0010467),2.72e-13
+salt_down,nucleobase-containing compound metabolic process (GO:0006139),3.46e-13
+salt_down,suberin biosynthetic process (GO:0010345),1.01e-11
+salt_down,macromolecule biosynthetic process (GO:0009059),1.49e-11
+salt_down,nucleic acid metabolic process (GO:0090304),1.71e-11
+salt_down,secondary metabolite biosynthetic process (GO:0044550),3.5e-11
+salt_down,phenylpropanoid biosynthetic process (GO:0009699),6.38e-11
+salt_down,macromolecule metabolic process (GO:0043170),1.46e-10
+salt_down,nucleobase-containing compound biosynthetic process (GO:0034654),1.39e-08
+salt_down,transmembrane transport (GO:0055085),9.39e-08
+salt_down,RNA metabolic process (GO:0016070),1.14e-07
+salt_down,response to stimulus (GO:0050896),1.17e-07
+salt_down,nucleic acid biosynthetic process (GO:0141187),1.17e-07
