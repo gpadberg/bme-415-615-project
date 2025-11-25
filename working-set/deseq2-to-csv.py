@@ -3,7 +3,7 @@
 import pandas as pd
 
 
-def process_deseq_file(input_path, output_path, lfc_threshold=1.0, padj_threshold=0.05):
+def process_deseq_file(input_path, output_path, lfc_threshold=2.0, padj_threshold=0.05):
     """
     Process a DESeq2 .tabular file:
       - Assign column names
