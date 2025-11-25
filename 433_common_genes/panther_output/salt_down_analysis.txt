@@ -1,0 +1,126 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	salt_down.txt (Arabidopsis thaliana)
+Reference List:	Arabidopsis thaliana (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Arabidopsis thaliana - REFLIST (27475)	salt_down.txt (805)	salt_down.txt (expected)	salt_down.txt (over/under)	salt_down.txt (fold Enrichment)	salt_down.txt (raw P-value)	salt_down.txt (FDR)
+gibberellic acid transmembrane transport (GO:1905200)	2	2	.06	+	34.13	8.57E-04	4.51E-02
+cinnamic acid ester metabolic process (GO:0009801)	2	2	.06	+	34.13	8.57E-04	4.47E-02
+seed growth (GO:0080112)	4	3	.12	+	25.60	9.80E-05	7.59E-03
+glutamine transport (GO:0006868)	6	4	.18	+	22.75	1.05E-05	1.46E-03
+glucosinolate transport (GO:1901349)	6	4	.18	+	22.75	1.05E-05	1.42E-03
+phloem loading (GO:0110126)	7	4	.21	+	19.50	2.39E-05	2.64E-03
+suberin biosynthetic process (GO:0010345)	23	13	.67	+	19.29	9.30E-15	1.01E-11
+phloem transport (GO:0010233)	21	8	.62	+	13.00	7.61E-08	1.88E-05
+vascular transport (GO:0010232)	21	8	.62	+	13.00	7.61E-08	1.79E-05
+vascular process in circulatory system (GO:0003018)	21	8	.62	+	13.00	7.61E-08	1.72E-05
+circulatory system process (GO:0003013)	21	8	.62	+	13.00	7.61E-08	1.65E-05
+system process (GO:0003008)	21	8	.62	+	13.00	7.61E-08	1.59E-05
+neutral amino acid transport (GO:0015804)	20	7	.59	+	11.95	1.00E-06	1.88E-04
+cutin biosynthetic process (GO:0010143)	25	6	.73	+	8.19	6.83E-05	5.97E-03
+phenylpropanoid metabolic process (GO:0009698)	162	34	4.75	+	7.16	1.17E-19	3.18E-16
+phenylpropanoid biosynthetic process (GO:0009699)	121	24	3.55	+	6.77	1.06E-13	6.38E-11
+stress response to metal ion (GO:0097501)	31	6	.91	+	6.61	2.44E-04	1.72E-02
+secondary metabolite biosynthetic process (GO:0044550)	140	26	4.10	+	6.34	5.16E-14	3.50E-11
+multicellular organismal-level iron ion homeostasis (GO:0060586)	27	5	.79	+	6.32	1.01E-03	4.96E-02
+response to metal ion starvation (GO:0180055)	27	5	.79	+	6.32	1.01E-03	4.92E-02
+secondary metabolic process (GO:0019748)	249	43	7.30	+	5.89	5.11E-21	2.77E-17
+flavonoid biosynthetic process (GO:0009813)	64	11	1.88	+	5.87	2.30E-06	3.90E-04
+xenobiotic detoxification by transmembrane export across the plasma membrane (GO:1990961)	50	8	1.46	+	5.46	9.47E-05	7.55E-03
+xenobiotic export from cell (GO:0046618)	50	8	1.46	+	5.46	9.47E-05	7.44E-03
+flavonoid metabolic process (GO:0009812)	75	12	2.20	+	5.46	1.77E-06	3.10E-04
+lignin metabolic process (GO:0009808)	65	10	1.90	+	5.25	1.84E-05	2.17E-03
+cutin-based cuticle development (GO:0160062)	46	7	1.35	+	5.19	3.57E-04	2.28E-02
+induced systemic resistance (GO:0009682)	40	6	1.17	+	5.12	1.02E-03	4.84E-02
+amine biosynthetic process (GO:0009309)	48	7	1.41	+	4.98	4.67E-04	2.81E-02
+biogenic amine biosynthetic process (GO:0042401)	48	7	1.41	+	4.98	4.67E-04	2.78E-02
+biogenic amine metabolic process (GO:0006576)	64	9	1.88	+	4.80	9.91E-05	7.57E-03
+cell surface receptor protein serine/threonine kinase signaling pathway (GO:0007178)	60	8	1.76	+	4.55	3.49E-04	2.28E-02
+enzyme-linked receptor protein signaling pathway (GO:0007167)	60	8	1.76	+	4.55	3.49E-04	2.25E-02
+xenobiotic transport (GO:0042908)	74	9	2.17	+	4.15	3.07E-04	2.10E-02
+hydrogen peroxide catabolic process (GO:0042744)	101	12	2.96	+	4.06	4.04E-05	3.98E-03
+export across plasma membrane (GO:0140115)	101	12	2.96	+	4.06	4.04E-05	3.91E-03
+hydrogen peroxide metabolic process (GO:0042743)	111	13	3.25	+	4.00	2.28E-05	2.57E-03
+defense response to oomycetes (GO:0002229)	77	9	2.26	+	3.99	4.14E-04	2.55E-02
+amino acid transport (GO:0006865)	81	9	2.37	+	3.79	6.04E-04	3.34E-02
+organic acid transport (GO:0015849)	120	13	3.52	+	3.70	5.22E-05	4.64E-03
+detoxification (GO:0098754)	303	32	8.88	+	3.60	4.61E-10	1.56E-07
+amine metabolic process (GO:0009308)	111	11	3.25	+	3.38	4.22E-04	2.57E-02
+response to toxic substance (GO:0009636)	346	34	10.14	+	3.35	8.93E-10	2.85E-07
+carboxylic acid transport (GO:0046942)	118	11	3.46	+	3.18	7.11E-04	3.85E-02
+inorganic anion transport (GO:0015698)	146	13	4.28	+	3.04	3.78E-04	2.38E-02
+cellular detoxification (GO:1990748)	196	17	5.74	+	2.96	7.06E-05	5.98E-03
+inorganic ion homeostasis (GO:0098771)	208	18	6.09	+	2.95	4.51E-05	4.21E-03
+cellular response to toxic substance (GO:0097237)	197	17	5.77	+	2.95	7.53E-05	6.28E-03
+cellular oxidant detoxification (GO:0098869)	163	14	4.78	+	2.93	3.31E-04	2.22E-02
+reactive oxygen species metabolic process (GO:0072593)	161	13	4.72	+	2.76	9.53E-04	4.83E-02
+export from cell (GO:0140352)	177	14	5.19	+	2.70	7.57E-04	4.02E-02
+defense response to symbiont (GO:0140546)	332	26	9.73	+	2.67	6.29E-06	9.22E-04
+immune response (GO:0006955)	311	24	9.11	+	2.63	1.80E-05	2.17E-03
+innate immune response (GO:0045087)	275	21	8.06	+	2.61	6.86E-05	5.91E-03
+response to starvation (GO:0042594)	239	17	7.00	+	2.43	7.35E-04	3.94E-02
+response to metal ion (GO:0010038)	254	18	7.44	+	2.42	5.43E-04	3.13E-02
+immune system process (GO:0002376)	354	25	10.37	+	2.41	7.80E-05	6.41E-03
+defense response to other organism (GO:0098542)	495	33	14.50	+	2.28	1.77E-05	2.18E-03
+defense response to bacterium (GO:0042742)	408	27	11.95	+	2.26	8.69E-05	7.03E-03
+transmembrane transport (GO:0055085)	1415	86	41.46	+	2.07	2.08E-10	9.39E-08
+response to bacterium (GO:0009617)	550	32	16.11	+	1.99	2.73E-04	1.90E-02
+lipid metabolic process (GO:0006629)	1180	56	34.57	+	1.62	3.92E-04	2.44E-02
+biological process involved in interspecies interaction between organisms (GO:0044419)	1668	79	48.87	+	1.62	2.47E-05	2.68E-03
+response to external biotic stimulus (GO:0043207)	1653	78	48.43	+	1.61	3.19E-05	3.26E-03
+response to other organism (GO:0051707)	1653	78	48.43	+	1.61	3.19E-05	3.20E-03
+response to biotic stimulus (GO:0009607)	1656	78	48.52	+	1.61	4.35E-05	4.14E-03
+defense response (GO:0006952)	1824	85	53.44	+	1.59	2.71E-05	2.89E-03
+response to chemical (GO:0042221)	3224	148	94.46	+	1.57	2.25E-08	5.82E-06
+transport (GO:0006810)	2627	118	76.97	+	1.53	2.53E-06	4.16E-04
+establishment of localization (GO:0051234)	2730	119	79.99	+	1.49	1.15E-05	1.45E-03
+localization (GO:0051179)	2870	124	84.09	+	1.47	1.05E-05	1.38E-03
+response to external stimulus (GO:0009605)	1904	82	55.79	+	1.47	5.25E-04	3.06E-02
+response to stress (GO:0006950)	4250	174	124.52	+	1.40	3.04E-06	4.72E-04
+response to stimulus (GO:0050896)	6896	281	202.05	+	1.39	3.03E-10	1.17E-07
+cellular component organization or biogenesis (GO:0071840)	3362	68	98.50	-	.69	5.73E-04	3.24E-02
+primary metabolic process (GO:0044238)	7362	147	215.70	-	.68	1.09E-08	2.95E-06
+protein metabolic process (GO:0019538)	2711	45	79.43	-	.57	1.12E-05	1.44E-03
+organelle organization (GO:0006996)	1394	21	40.84	-	.51	5.86E-04	3.28E-02
+macromolecule metabolic process (GO:0043170)	5217	78	152.85	-	.51	2.69E-13	1.46E-10
+macromolecule localization (GO:0033036)	1125	15	32.96	-	.46	5.51E-04	3.14E-02
+negative regulation of macromolecule metabolic process (GO:0010605)	707	7	20.71	-	.34	6.43E-04	3.52E-02
+macromolecule biosynthetic process (GO:0009059)	2629	22	77.03	-	.29	1.92E-14	1.49E-11
+cellular localization (GO:0051641)	732	6	21.45	-	.28	1.30E-04	9.55E-03
+negative regulation of macromolecule biosynthetic process (GO:0010558)	661	5	19.37	-	.26	1.57E-04	1.12E-02
+RNA metabolic process (GO:0016070)	1634	12	47.88	-	.25	3.14E-10	1.14E-07
+negative regulation of biosynthetic process (GO:0009890)	682	5	19.98	-	.25	1.17E-04	8.69E-03
+nucleobase-containing compound metabolic process (GO:0006139)	2566	18	75.18	-	.24	2.55E-16	3.46E-13
+nucleic acid metabolic process (GO:0090304)	2150	14	62.99	-	.22	1.89E-14	1.71E-11
+nucleobase-containing compound biosynthetic process (GO:0034654)	1618	10	47.41	-	.21	2.82E-11	1.39E-08
+RNA biosynthetic process (GO:0032774)	1308	8	38.32	-	.21	2.25E-09	6.77E-07
+nucleic acid biosynthetic process (GO:0141187)	1394	8	40.84	-	.20	2.79E-10	1.17E-07
+intracellular transport (GO:0046907)	548	3	16.06	-	.19	1.56E-04	1.13E-02
+gene expression (GO:0010467)	2213	12	64.84	-	.19	1.50E-16	2.72E-13
+DNA metabolic process (GO:0006259)	560	3	16.41	-	.18	1.09E-04	8.22E-03
+protein transport (GO:0015031)	755	4	22.12	-	.18	4.74E-06	7.14E-04
+cell division (GO:0051301)	405	2	11.87	-	.17	9.08E-04	4.64E-02
+translation (GO:0006412)	619	3	18.14	-	.17	1.86E-05	2.14E-03
+negative regulation of gene expression (GO:0010629)	413	2	12.10	-	.17	9.58E-04	4.81E-02
+establishment of protein localization (GO:0045184)	827	4	24.23	-	.17	5.46E-07	1.06E-04
+intracellular protein localization (GO:0008104)	869	4	25.46	-	.16	1.89E-07	3.80E-05
+RNA processing (GO:0006396)	999	4	29.27	-	.14	7.91E-09	2.26E-06
+mRNA metabolic process (GO:0016071)	621	2	18.19	-	.11	2.95E-06	4.70E-04
+sexual reproduction (GO:0019953)	336	1	9.84	-	.10	9.03E-04	4.66E-02
+intracellular protein transport (GO:0006886)	344	1	10.08	-	.10	9.63E-04	4.79E-02
+chromatin remodeling (GO:0006338)	384	1	11.25	-	.09	3.20E-04	2.17E-02
+chromatin organization (GO:0006325)	448	1	13.13	-	.08	4.87E-05	4.40E-03
+mRNA processing (GO:0006397)	507	1	14.85	-	.07	7.12E-06	1.02E-03
+rRNA processing (GO:0006364)	278	0	8.15	-	 < 0.01	4.71E-04	2.78E-02
+rRNA metabolic process (GO:0016072)	298	0	8.73	-	 < 0.01	3.46E-04	2.28E-02
+ribosome biogenesis (GO:0042254)	371	0	10.87	-	 < 0.01	3.09E-05	3.22E-03
+RNA splicing (GO:0008380)	362	0	10.61	-	 < 0.01	4.81E-05	4.42E-03
+ribonucleoprotein complex biogenesis (GO:0022613)	469	0	13.74	-	 < 0.01	1.29E-06	2.34E-04
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	247	0	7.24	-	 < 0.01	1.01E-03	4.91E-02
+RNA splicing, via transesterification reactions (GO:0000375)	247	0	7.24	-	 < 0.01	1.01E-03	4.87E-02
