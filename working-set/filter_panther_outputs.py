@@ -16,26 +16,6 @@ panther_file_root = root.with_stem("433_common_genes") # switch from working_set
 
 panther_file = panther_file_root / "panther_output" # folder with the panther output files
 
-# def standardize_panther_cols(df):
-#     term = "GO biological process complete"
-#     ref  = [c for c in df.columns if "REFLIST" in c][0]
-#     query = [c for c in df.columns if re.search(r"\(\d+\)$", c) and "REFLIST" not in c][0]
-#     expected = [c for c in df.columns if c.endswith("(expected)")][0]
-#     overunder = [c for c in df.columns if c.endswith("(over/under)")][0]
-#     fold = [c for c in df.columns if c.endswith("(fold Enrichment)")][0]
-#     pval = [c for c in df.columns if c.endswith("(raw P-value)")][0]
-
-#     return df.rename(columns={
-#         term: "GO_term",
-#         ref: "n_reference",
-#         query: "n_query",
-#         expected: "expected",
-#         overunder: "over_under",
-#         fold: "fold_enrichment",
-#         pval: "p_raw",
-#         "FDR": "FDR"
-#     })
-
 def load_panther(filename):
     """
     Loads a panther overrepresentation output file and renames the FDR column to a generic name 'FDR'.
