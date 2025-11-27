@@ -38,8 +38,8 @@ def overlap_stats(A: set, B: set):
     # use jaccard normalization method
     jaccard = len(inter) / len(union) if union else 0.0
     overlap_coeff = len(inter) / min(len(A), len(B)) if min(len(A), len(B)) else 0.0
-    pct_A = len(inter) / len(A) if len(A) else 0.0
-    pct_B = len(inter) / len(B) if len(B) else 0.0
+    pct_A = len(inter) / len(A) * 100 if len(A) else 0.0
+    pct_B = len(inter) / len(B) * 100 if len(B) else 0.0
     return {
         "n_A": len(A),
         "n_B": len(B),

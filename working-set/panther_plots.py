@@ -39,6 +39,13 @@ def main():
     }
     sigs = {k: pd.read_csv(v, sep="\t") for k, v in sig_files.items()}
 
+    full_names = {
+        "heat_up": "Upregulated Heat",
+        "heat_down": "Downregulated Heat",
+        "salt_up": "Upregulated Salt",
+        "salt_down": "Downregulated Salt",
+    }
+
     # Load combined top15 if present (preferred for heatmap)
     combined_path = export_dir / "all_conditions_GO_top15.csv"
     combined = pd.read_csv(combined_path) if combined_path.exists() else None
@@ -47,14 +54,14 @@ def main():
     for cond, df in tops.items():
         plot_top15_bar(
             df,
-            title=f"{cond}: Most Significant Enriched GO Terms",
+            title=f"Most Significant Enriched GO Terms for\n {full_names[cond]} Stress Data",
             outpath=plots_dir / f"{cond}_top15_bar.png"
         )
 
     # Plot 5: significant term counts per condition
     counts = plot_sig_term_counts(
         sigs,
-        title="Number of Enriched GO Terms Per Condition",
+        title="Significant GO Term Counts Across Heat/Salt and Up/Down-Regulated Sets",
         outpath=plots_dir / "sig_term_counts.png"
     )
 
@@ -70,7 +77,7 @@ def main():
     if combined is not None:
         plot_heatmap_from_combined(
             combined,
-            title="Top GO Terms Across Conditions",
+            title="Combined Significant GO Terms (FDR ≤ 0.05)\n Across Heat/Salt and Up/Down-Regulated Sets",
             outpath=plots_dir / "top_terms_heatmap.png"
         )
 
