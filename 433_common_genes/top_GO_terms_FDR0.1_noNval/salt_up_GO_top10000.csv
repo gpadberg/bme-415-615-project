@@ -1,0 +1,147 @@
+GO biological process complete,FDR
+response to chemical (GO:0042221),8.759999999999999e-40
+cellular response to hypoxia (GO:0071456),6.13e-33
+cellular response to decreased oxygen levels (GO:0036294),6.26e-33
+response to hypoxia (GO:0001666),6.65e-33
+cellular response to oxygen levels (GO:0071453),7.13e-33
+response to decreased oxygen levels (GO:0036293),2.3100000000000002e-32
+response to oxygen levels (GO:0070482),3.72e-32
+response to stimulus (GO:0050896),8.72e-25
+cellular response to chemical stimulus (GO:0070887),2.97e-24
+response to abiotic stimulus (GO:0009628),1.0799999999999999e-23
+response to wounding (GO:0009611),2.1200000000000003e-21
+response to oxygen-containing compound (GO:1901700),4.4900000000000005e-21
+response to endogenous stimulus (GO:0009719),6.02e-21
+response to hormone (GO:0009725),6.28e-21
+response to stress (GO:0006950),1.34e-20
+gene expression (GO:0010467),4.32e-18
+macromolecule biosynthetic process (GO:0009059),4.86e-18
+response to lipid (GO:0033993),1.83e-15
+nucleobase-containing compound metabolic process (GO:0006139),2.12e-13
+cellular response to stimulus (GO:0051716),3.1e-13
+nucleic acid metabolic process (GO:0090304),1.05e-12
+response to abscisic acid (GO:0009737),9.08e-11
+nucleobase-containing compound biosynthetic process (GO:0034654),1.04e-10
+macromolecule metabolic process (GO:0043170),1.13e-10
+nucleic acid biosynthetic process (GO:0141187),2.18e-10
+response to alcohol (GO:0097305),2.36e-10
+RNA metabolic process (GO:0016070),3.37e-10
+ethylene-activated signaling pathway (GO:0009873),7.21e-10
+cellular response to ethylene stimulus (GO:0071369),7.57e-10
+RNA biosynthetic process (GO:0032774),1.41e-09
+response to ethylene (GO:0009723),1.58e-09
+response to osmotic stress (GO:0006970),1.8e-09
+phosphorelay signal transduction system (GO:0000160),1.51e-08
+RNA processing (GO:0006396),2.86e-08
+cellular response to stress (GO:0033554),3.49e-08
+cellular response to hormone stimulus (GO:0032870),3.52e-08
+cellular response to endogenous stimulus (GO:0071495),3.56e-08
+hormone-mediated signaling pathway (GO:0009755),3.78e-08
+response to acid chemical (GO:0001101),7.22e-08
+response to jasmonic acid (GO:0009753),8.14e-08
+response to water deprivation (GO:0009414),8.77e-08
+response to water (GO:0009415),1.03e-07
+response to fatty acid (GO:0070542),1.35e-07
+response to salt stress (GO:0009651),4.11e-07
+cytoskeleton organization (GO:0007010),1.32e-06
+response to cold (GO:0009409),1.86e-06
+response to salicylic acid (GO:0009751),1.88e-06
+translation (GO:0006412),4.68e-06
+biosynthetic process (GO:0009058),4.89e-06
+regulation of jasmonic acid mediated signaling pathway (GO:2000022),5.41e-06
+signaling (GO:0023052),6.09e-06
+signal transduction (GO:0007165),9.49e-06
+ribosome biogenesis (GO:0042254),9.8e-06
+organelle organization (GO:0006996),1.49e-05
+cell communication (GO:0007154),1.78e-05
+ribonucleoprotein complex biogenesis (GO:0022613),1.99e-05
+jasmonic acid metabolic process (GO:0009694),2.29e-05
+response to temperature stimulus (GO:0009266),3.14e-05
+regulation of response to stress (GO:0080134),3.66e-05
+cellular component organization or biogenesis (GO:0071840),4.54e-05
+microtubule cytoskeleton organization (GO:0000226),8.41e-05
+regulation of DNA-templated transcription (GO:0006355),8.81e-05
+regulation of RNA biosynthetic process (GO:2001141),8.95e-05
+cell cycle (GO:0007049),9.25e-05
+response to chitin (GO:0010200),0.000113
+long-chain fatty acid metabolic process (GO:0001676),0.000123
+abscisic acid-activated signaling pathway (GO:0009738),0.000129
+cell cycle process (GO:0022402),0.000133
+rRNA metabolic process (GO:0016072),0.000133
+biological regulation (GO:0065007),0.000135
+jasmonic acid biosynthetic process (GO:0009695),0.000142
+long-chain fatty acid biosynthetic process (GO:0042759),0.000182
+cellular component biogenesis (GO:0044085),0.000183
+cellular response to alcohol (GO:0097306),0.000233
+cellular response to abscisic acid stimulus (GO:0071215),0.000236
+rRNA processing (GO:0006364),0.000344
+tRNA metabolic process (GO:0006399),0.000364
+microtubule-based process (GO:0007017),0.000466
+regulation of biological process (GO:0050789),0.000581
+regulation of RNA metabolic process (GO:0051252),0.000601
+mitotic cell cycle (GO:0000278),0.000628
+DNA damage response (GO:0006974),0.000742
+cellular response to oxygen-containing compound (GO:1901701),0.000765
+response to biotic stimulus (GO:0009607),0.000767
+regulation of response to stimulus (GO:0048583),0.000804
+response to external stimulus (GO:0009605),0.000892
+regulation of nucleobase-containing compound metabolic process (GO:0019219),0.000963
+response to other organism (GO:0051707),0.00109
+response to external biotic stimulus (GO:0043207),0.0011
+regulation of defense response (GO:0031347),0.00123
+regulation of cellular process (GO:0050794),0.00139
+cellular response to lipid (GO:0071396),0.00158
+response to oxidative stress (GO:0006979),0.00162
+biological process involved in interspecies interaction between organisms (GO:0044419),0.00174
+chromatin organization (GO:0006325),0.00185
+regulation of signal transduction (GO:0009966),0.00251
+response to hydrogen peroxide (GO:0042542),0.00288
+regulation of signaling (GO:0023051),0.00288
+response to purine-containing compound (GO:0014074),0.0029
+regulation of cell communication (GO:0010646),0.0029
+positive regulation of response to stimulus (GO:0048584),0.00339
+defense response (GO:0006952),0.00414
+oxoacid metabolic process (GO:0043436),0.00561
+organic acid metabolic process (GO:0006082),0.00567
+cellular component organization (GO:0016043),0.00639
+regulation of defense response to insect (GO:2000068),0.00666
+DNA repair (GO:0006281),0.00676
+response to reactive oxygen species (GO:0000302),0.00685
+oxylipin biosynthetic process (GO:0031408),0.0073
+primary metabolic process (GO:0044238),0.00736
+membraneless organelle assembly (GO:0140694),0.00859
+protein metabolic process (GO:0019538),0.00928
+lipid metabolic process (GO:0006629),0.0109
+oxylipin metabolic process (GO:0031407),0.0118
+lipid biosynthetic process (GO:0008610),0.0119
+regulation of primary metabolic process (GO:0080090),0.0119
+killing of cells of another organism (GO:0031640),0.0127
+disruption of anatomical structure in another organism (GO:0141060),0.0128
+disruption of cell in another organism (GO:0141061),0.013
+cell killing (GO:0001906),0.0131
+response to ATP (GO:0033198),0.0151
+"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin) (GO:0019379)",0.0152
+chromosome segregation (GO:0007059),0.0153
+mitotic cell cycle process (GO:1903047),0.0162
+regulation of biosynthetic process (GO:0009889),0.0176
+response to ozone (GO:0010193),0.018
+RNA modification (GO:0009451),0.0181
+proteolysis (GO:0006508),0.0212
+supramolecular fiber organization (GO:0097435),0.0219
+organelle assembly (GO:0070925),0.022
+positive regulation of leaf senescence (GO:1900057),0.0225
+chromatin remodeling (GO:0006338),0.0231
+intracellular signal transduction (GO:0035556),0.024
+regulation of gene expression (GO:0010468),0.0243
+response to nutrient levels (GO:0031667),0.0262
+cellular response to starvation (GO:0009267),0.0289
+regulation of macromolecule biosynthetic process (GO:0010556),0.029
+response to organophosphorus (GO:0046683),0.0291
+DNA metabolic process (GO:0006259),0.0295
+sulfur compound metabolic process (GO:0006790),0.0357
+regulation of metabolic process (GO:0019222),0.0397
+multicellular organismal reproductive process (GO:0048609),0.04
+response to red light (GO:0010114),0.0419
+cellular response to nutrient levels (GO:0031669),0.0438
+metabolic process (GO:0008152),0.0442
+positive regulation of defense response (GO:0031349),0.0493

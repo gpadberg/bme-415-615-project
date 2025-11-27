@@ -62,7 +62,8 @@ def main():
     overlap = plot_overlap(
         sigs,
         title="Overlap of Enriched Processes (heat vs salt)",
-        outpath=plots_dir / "shared_counts.png"
+        outpath=plots_dir / "shared_counts.png",
+        outpath_overlap=plots_dir / "overlapping_genes.txt"
     )
 
     # Plot 7: heatmap across conditions (union of top terms)
@@ -217,17 +218,16 @@ def plot_sig_term_counts(sig_tables, title, outpath):
 
     return counts
 
-
-def plot_overlap(sig_tables, title, outpath):
+def plot_overlap(sig_tables, title, outpath, outpath_overlap):
     """
-    Plots a bar chart of the overlap of significant GO terms between heat and salt conditions.
-
+    Plots a bar chart of the overlap of significant GO terms between heat and salt conditions,
+    and prints the overlapping GO term lists.
     """
-    # Compute overlap based on GO term strings
     def term_set(df):
         tcol = first_existing_col(df, ["GO_term", "GO biological process complete"])
         if tcol is None:
             return set()
+        # normalize: string, strip whitespace
         return set(df[tcol].astype(str).str.strip())
 
     hu = term_set(sig_tables["heat_up"])
@@ -235,8 +235,29 @@ def plot_overlap(sig_tables, title, outpath):
     hd = term_set(sig_tables["heat_down"])
     sd = term_set(sig_tables["salt_down"])
 
-    shared_up = len(hu & su)
-    shared_down = len(hd & sd)
+    overlap_up = sorted(hu & su)
+    overlap_down = sorted(hd & sd)
+
+    with open(outpath_overlap, "w") as f:
+        f.write(f"Overlapping UP GO terms: {len(overlap_up)}\n")
+        for term in overlap_up:
+            f.write(f"{term}\n")
+        f.write(f"\nOverlapping DOWN GO terms: {len(overlap_down)}\n")
+        for term in overlap_down:
+            f.write(f"{term}\n")
+
+    # # Print the lists
+    # print(f"\nOverlapping UP GO terms (heat_up ∩ salt_up): {len(overlap_up)}")
+    # for term in overlap_up:
+    #     print(term)
+
+    # print(f"\nOverlapping DOWN GO terms (heat_down ∩ salt_down): {len(overlap_down)}")
+    # for term in overlap_down:
+    #     print(term)
+
+    # Plot counts
+    shared_up = len(overlap_up)
+    shared_down = len(overlap_down)
 
     plt.figure(figsize=(6, 4))
     plt.bar(["heat_up ∩ salt_up", "heat_down ∩ salt_down"], [shared_up, shared_down], color="#ff509d")
@@ -246,7 +267,13 @@ def plot_overlap(sig_tables, title, outpath):
     plt.savefig(outpath, dpi=200)
     plt.close()
 
-    return {"shared_up": shared_up, "shared_down": shared_down}
+    return {
+        "shared_up": shared_up,
+        "shared_down": shared_down,
+        "overlap_up_terms": overlap_up,
+        "overlap_down_terms": overlap_down,
+    }
+
 
 if __name__ == "__main__":
     main()

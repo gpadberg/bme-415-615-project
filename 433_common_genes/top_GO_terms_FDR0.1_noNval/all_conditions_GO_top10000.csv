@@ -1,0 +1,294 @@
+condition,GO biological process complete,FDR
+heat_up,nucleic acid metabolic process (GO:0090304),1.52e-06
+heat_up,macromolecule metabolic process (GO:0043170),3.88e-06
+heat_up,nucleobase-containing compound metabolic process (GO:0006139),2.28e-05
+heat_up,gene expression (GO:0010467),8.59e-05
+heat_up,RNA metabolic process (GO:0016070),0.000102
+heat_up,nucleic acid biosynthetic process (GO:0141187),0.00044
+heat_up,macromolecule biosynthetic process (GO:0009059),0.000598
+heat_up,RNA biosynthetic process (GO:0032774),0.000957
+heat_up,protein metabolic process (GO:0019538),0.00152
+heat_up,thalianol metabolic process (GO:0080003),0.00224
+heat_up,nucleobase-containing compound biosynthetic process (GO:0034654),0.00694
+heat_up,RNA processing (GO:0006396),0.00974
+heat_up,macromolecule modification (GO:0043412),0.00976
+heat_up,cell-cell signaling involved in cell fate commitment (GO:0045168),0.00989
+heat_up,triterpenoid metabolic process (GO:0006722),0.01
+heat_up,trichome patterning (GO:0048629),0.0137
+heat_up,protein catabolic process (GO:0030163),0.0206
+heat_up,organelle organization (GO:0006996),0.0208
+heat_up,response to chemical (GO:0042221),0.0209
+heat_up,cell fate commitment (GO:0045165),0.022
+heat_up,proteolysis involved in protein catabolic process (GO:0051603),0.0265
+heat_up,lipid metabolic process (GO:0006629),0.0286
+heat_up,reactive nitrogen species metabolic process (GO:2001057),0.0286
+heat_up,response to toxic substance (GO:0009636),0.0377
+heat_up,response to nitrate (GO:0010167),0.039
+heat_down,cellular process (GO:0009987),2.19e-07
+heat_down,metabolic process (GO:0008152),0.0358
+heat_down,ATP biosynthetic process (GO:0006754),0.0372
+heat_down,response to stimulus (GO:0050896),0.0405
+heat_down,purine nucleoside triphosphate biosynthetic process (GO:0009145),0.0412
+heat_down,cellular response to stimulus (GO:0051716),0.0444
+heat_down,purine ribonucleoside triphosphate biosynthetic process (GO:0009206),0.047
+heat_down,biological regulation (GO:0065007),0.0529
+salt_up,response to chemical (GO:0042221),8.759999999999999e-40
+salt_up,cellular response to hypoxia (GO:0071456),6.13e-33
+salt_up,cellular response to decreased oxygen levels (GO:0036294),6.26e-33
+salt_up,response to hypoxia (GO:0001666),6.65e-33
+salt_up,cellular response to oxygen levels (GO:0071453),7.13e-33
+salt_up,response to decreased oxygen levels (GO:0036293),2.3100000000000002e-32
+salt_up,response to oxygen levels (GO:0070482),3.72e-32
+salt_up,response to stimulus (GO:0050896),8.72e-25
+salt_up,cellular response to chemical stimulus (GO:0070887),2.97e-24
+salt_up,response to abiotic stimulus (GO:0009628),1.0799999999999999e-23
+salt_up,response to wounding (GO:0009611),2.1200000000000003e-21
+salt_up,response to oxygen-containing compound (GO:1901700),4.4900000000000005e-21
+salt_up,response to endogenous stimulus (GO:0009719),6.02e-21
+salt_up,response to hormone (GO:0009725),6.28e-21
+salt_up,response to stress (GO:0006950),1.34e-20
+salt_up,gene expression (GO:0010467),4.32e-18
+salt_up,macromolecule biosynthetic process (GO:0009059),4.86e-18
+salt_up,response to lipid (GO:0033993),1.83e-15
+salt_up,nucleobase-containing compound metabolic process (GO:0006139),2.12e-13
+salt_up,cellular response to stimulus (GO:0051716),3.1e-13
+salt_up,nucleic acid metabolic process (GO:0090304),1.05e-12
+salt_up,response to abscisic acid (GO:0009737),9.08e-11
+salt_up,nucleobase-containing compound biosynthetic process (GO:0034654),1.04e-10
+salt_up,macromolecule metabolic process (GO:0043170),1.13e-10
+salt_up,nucleic acid biosynthetic process (GO:0141187),2.18e-10
+salt_up,response to alcohol (GO:0097305),2.36e-10
+salt_up,RNA metabolic process (GO:0016070),3.37e-10
+salt_up,ethylene-activated signaling pathway (GO:0009873),7.21e-10
+salt_up,cellular response to ethylene stimulus (GO:0071369),7.57e-10
+salt_up,RNA biosynthetic process (GO:0032774),1.41e-09
+salt_up,response to ethylene (GO:0009723),1.58e-09
+salt_up,response to osmotic stress (GO:0006970),1.8e-09
+salt_up,phosphorelay signal transduction system (GO:0000160),1.51e-08
+salt_up,RNA processing (GO:0006396),2.86e-08
+salt_up,cellular response to stress (GO:0033554),3.49e-08
+salt_up,cellular response to hormone stimulus (GO:0032870),3.52e-08
+salt_up,cellular response to endogenous stimulus (GO:0071495),3.56e-08
+salt_up,hormone-mediated signaling pathway (GO:0009755),3.78e-08
+salt_up,response to acid chemical (GO:0001101),7.22e-08
+salt_up,response to jasmonic acid (GO:0009753),8.14e-08
+salt_up,response to water deprivation (GO:0009414),8.77e-08
+salt_up,response to water (GO:0009415),1.03e-07
+salt_up,response to fatty acid (GO:0070542),1.35e-07
+salt_up,response to salt stress (GO:0009651),4.11e-07
+salt_up,cytoskeleton organization (GO:0007010),1.32e-06
+salt_up,response to cold (GO:0009409),1.86e-06
+salt_up,response to salicylic acid (GO:0009751),1.88e-06
+salt_up,translation (GO:0006412),4.68e-06
+salt_up,biosynthetic process (GO:0009058),4.89e-06
+salt_up,regulation of jasmonic acid mediated signaling pathway (GO:2000022),5.41e-06
+salt_up,signaling (GO:0023052),6.09e-06
+salt_up,signal transduction (GO:0007165),9.49e-06
+salt_up,ribosome biogenesis (GO:0042254),9.8e-06
+salt_up,organelle organization (GO:0006996),1.49e-05
+salt_up,cell communication (GO:0007154),1.78e-05
+salt_up,ribonucleoprotein complex biogenesis (GO:0022613),1.99e-05
+salt_up,jasmonic acid metabolic process (GO:0009694),2.29e-05
+salt_up,response to temperature stimulus (GO:0009266),3.14e-05
+salt_up,regulation of response to stress (GO:0080134),3.66e-05
+salt_up,cellular component organization or biogenesis (GO:0071840),4.54e-05
+salt_up,microtubule cytoskeleton organization (GO:0000226),8.41e-05
+salt_up,regulation of DNA-templated transcription (GO:0006355),8.81e-05
+salt_up,regulation of RNA biosynthetic process (GO:2001141),8.95e-05
+salt_up,cell cycle (GO:0007049),9.25e-05
+salt_up,response to chitin (GO:0010200),0.000113
+salt_up,long-chain fatty acid metabolic process (GO:0001676),0.000123
+salt_up,abscisic acid-activated signaling pathway (GO:0009738),0.000129
+salt_up,cell cycle process (GO:0022402),0.000133
+salt_up,rRNA metabolic process (GO:0016072),0.000133
+salt_up,biological regulation (GO:0065007),0.000135
+salt_up,jasmonic acid biosynthetic process (GO:0009695),0.000142
+salt_up,long-chain fatty acid biosynthetic process (GO:0042759),0.000182
+salt_up,cellular component biogenesis (GO:0044085),0.000183
+salt_up,cellular response to alcohol (GO:0097306),0.000233
+salt_up,cellular response to abscisic acid stimulus (GO:0071215),0.000236
+salt_up,rRNA processing (GO:0006364),0.000344
+salt_up,tRNA metabolic process (GO:0006399),0.000364
+salt_up,microtubule-based process (GO:0007017),0.000466
+salt_up,regulation of biological process (GO:0050789),0.000581
+salt_up,regulation of RNA metabolic process (GO:0051252),0.000601
+salt_up,mitotic cell cycle (GO:0000278),0.000628
+salt_up,DNA damage response (GO:0006974),0.000742
+salt_up,cellular response to oxygen-containing compound (GO:1901701),0.000765
+salt_up,response to biotic stimulus (GO:0009607),0.000767
+salt_up,regulation of response to stimulus (GO:0048583),0.000804
+salt_up,response to external stimulus (GO:0009605),0.000892
+salt_up,regulation of nucleobase-containing compound metabolic process (GO:0019219),0.000963
+salt_up,response to other organism (GO:0051707),0.00109
+salt_up,response to external biotic stimulus (GO:0043207),0.0011
+salt_up,regulation of defense response (GO:0031347),0.00123
+salt_up,regulation of cellular process (GO:0050794),0.00139
+salt_up,cellular response to lipid (GO:0071396),0.00158
+salt_up,response to oxidative stress (GO:0006979),0.00162
+salt_up,biological process involved in interspecies interaction between organisms (GO:0044419),0.00174
+salt_up,chromatin organization (GO:0006325),0.00185
+salt_up,regulation of signal transduction (GO:0009966),0.00251
+salt_up,response to hydrogen peroxide (GO:0042542),0.00288
+salt_up,regulation of signaling (GO:0023051),0.00288
+salt_up,response to purine-containing compound (GO:0014074),0.0029
+salt_up,regulation of cell communication (GO:0010646),0.0029
+salt_up,positive regulation of response to stimulus (GO:0048584),0.00339
+salt_up,defense response (GO:0006952),0.00414
+salt_up,oxoacid metabolic process (GO:0043436),0.00561
+salt_up,organic acid metabolic process (GO:0006082),0.00567
+salt_up,cellular component organization (GO:0016043),0.00639
+salt_up,regulation of defense response to insect (GO:2000068),0.00666
+salt_up,DNA repair (GO:0006281),0.00676
+salt_up,response to reactive oxygen species (GO:0000302),0.00685
+salt_up,oxylipin biosynthetic process (GO:0031408),0.0073
+salt_up,primary metabolic process (GO:0044238),0.00736
+salt_up,membraneless organelle assembly (GO:0140694),0.00859
+salt_up,protein metabolic process (GO:0019538),0.00928
+salt_up,lipid metabolic process (GO:0006629),0.0109
+salt_up,oxylipin metabolic process (GO:0031407),0.0118
+salt_up,lipid biosynthetic process (GO:0008610),0.0119
+salt_up,regulation of primary metabolic process (GO:0080090),0.0119
+salt_up,killing of cells of another organism (GO:0031640),0.0127
+salt_up,disruption of anatomical structure in another organism (GO:0141060),0.0128
+salt_up,disruption of cell in another organism (GO:0141061),0.013
+salt_up,cell killing (GO:0001906),0.0131
+salt_up,response to ATP (GO:0033198),0.0151
+salt_up,"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin) (GO:0019379)",0.0152
+salt_up,chromosome segregation (GO:0007059),0.0153
+salt_up,mitotic cell cycle process (GO:1903047),0.0162
+salt_up,regulation of biosynthetic process (GO:0009889),0.0176
+salt_up,response to ozone (GO:0010193),0.018
+salt_up,RNA modification (GO:0009451),0.0181
+salt_up,proteolysis (GO:0006508),0.0212
+salt_up,supramolecular fiber organization (GO:0097435),0.0219
+salt_up,organelle assembly (GO:0070925),0.022
+salt_up,positive regulation of leaf senescence (GO:1900057),0.0225
+salt_up,chromatin remodeling (GO:0006338),0.0231
+salt_up,intracellular signal transduction (GO:0035556),0.024
+salt_up,regulation of gene expression (GO:0010468),0.0243
+salt_up,response to nutrient levels (GO:0031667),0.0262
+salt_up,cellular response to starvation (GO:0009267),0.0289
+salt_up,regulation of macromolecule biosynthetic process (GO:0010556),0.029
+salt_up,response to organophosphorus (GO:0046683),0.0291
+salt_up,DNA metabolic process (GO:0006259),0.0295
+salt_up,sulfur compound metabolic process (GO:0006790),0.0357
+salt_up,regulation of metabolic process (GO:0019222),0.0397
+salt_up,multicellular organismal reproductive process (GO:0048609),0.04
+salt_up,response to red light (GO:0010114),0.0419
+salt_up,cellular response to nutrient levels (GO:0031669),0.0438
+salt_up,metabolic process (GO:0008152),0.0442
+salt_up,positive regulation of defense response (GO:0031349),0.0493
+salt_down,secondary metabolic process (GO:0019748),2.77e-17
+salt_down,phenylpropanoid metabolic process (GO:0009698),3.18e-16
+salt_down,gene expression (GO:0010467),2.72e-13
+salt_down,nucleobase-containing compound metabolic process (GO:0006139),3.46e-13
+salt_down,suberin biosynthetic process (GO:0010345),1.01e-11
+salt_down,macromolecule biosynthetic process (GO:0009059),1.49e-11
+salt_down,nucleic acid metabolic process (GO:0090304),1.71e-11
+salt_down,secondary metabolite biosynthetic process (GO:0044550),3.5e-11
+salt_down,phenylpropanoid biosynthetic process (GO:0009699),6.38e-11
+salt_down,macromolecule metabolic process (GO:0043170),1.46e-10
+salt_down,nucleobase-containing compound biosynthetic process (GO:0034654),1.39e-08
+salt_down,transmembrane transport (GO:0055085),9.39e-08
+salt_down,RNA metabolic process (GO:0016070),1.14e-07
+salt_down,nucleic acid biosynthetic process (GO:0141187),1.17e-07
+salt_down,response to stimulus (GO:0050896),1.17e-07
+salt_down,detoxification (GO:0098754),1.56e-07
+salt_down,response to toxic substance (GO:0009636),2.85e-07
+salt_down,RNA biosynthetic process (GO:0032774),6.77e-07
+salt_down,RNA processing (GO:0006396),2.26e-06
+salt_down,primary metabolic process (GO:0044238),2.95e-06
+salt_down,response to chemical (GO:0042221),5.82e-06
+salt_down,system process (GO:0003008),1.59e-05
+salt_down,circulatory system process (GO:0003013),1.65e-05
+salt_down,vascular process in circulatory system (GO:0003018),1.72e-05
+salt_down,vascular transport (GO:0010232),1.79e-05
+salt_down,phloem transport (GO:0010233),1.88e-05
+salt_down,intracellular protein localization (GO:0008104),3.8e-05
+salt_down,establishment of protein localization (GO:0045184),0.000106
+salt_down,neutral amino acid transport (GO:0015804),0.000188
+salt_down,ribonucleoprotein complex biogenesis (GO:0022613),0.000234
+salt_down,flavonoid metabolic process (GO:0009812),0.00031
+salt_down,flavonoid biosynthetic process (GO:0009813),0.00039
+salt_down,transport (GO:0006810),0.000416
+salt_down,mRNA metabolic process (GO:0016071),0.00047
+salt_down,response to stress (GO:0006950),0.000472
+salt_down,protein transport (GO:0015031),0.000714
+salt_down,defense response to symbiont (GO:0140546),0.000922
+salt_down,mRNA processing (GO:0006397),0.00102
+salt_down,localization (GO:0051179),0.00138
+salt_down,glucosinolate transport (GO:1901349),0.00142
+salt_down,protein metabolic process (GO:0019538),0.00144
+salt_down,establishment of localization (GO:0051234),0.00145
+salt_down,glutamine transport (GO:0006868),0.00146
+salt_down,translation (GO:0006412),0.00214
+salt_down,lignin metabolic process (GO:0009808),0.00217
+salt_down,immune response (GO:0006955),0.00217
+salt_down,defense response to other organism (GO:0098542),0.00218
+salt_down,hydrogen peroxide metabolic process (GO:0042743),0.00257
+salt_down,phloem loading (GO:0110126),0.00264
+salt_down,biological process involved in interspecies interaction between organisms (GO:0044419),0.00268
+salt_down,defense response (GO:0006952),0.00289
+salt_down,response to other organism (GO:0051707),0.0032
+salt_down,ribosome biogenesis (GO:0042254),0.00322
+salt_down,response to external biotic stimulus (GO:0043207),0.00326
+salt_down,export across plasma membrane (GO:0140115),0.00391
+salt_down,hydrogen peroxide catabolic process (GO:0042744),0.00398
+salt_down,response to biotic stimulus (GO:0009607),0.00414
+salt_down,inorganic ion homeostasis (GO:0098771),0.00421
+salt_down,chromatin organization (GO:0006325),0.0044
+salt_down,RNA splicing (GO:0008380),0.00442
+salt_down,organic acid transport (GO:0015849),0.00464
+salt_down,innate immune response (GO:0045087),0.00591
+salt_down,cutin biosynthetic process (GO:0010143),0.00597
+salt_down,cellular detoxification (GO:1990748),0.00598
+salt_down,cellular response to toxic substance (GO:0097237),0.00628
+salt_down,immune system process (GO:0002376),0.00641
+salt_down,defense response to bacterium (GO:0042742),0.00703
+salt_down,xenobiotic export from cell (GO:0046618),0.00744
+salt_down,xenobiotic detoxification by transmembrane export across the plasma membrane (GO:1990961),0.00755
+salt_down,biogenic amine metabolic process (GO:0006576),0.00757
+salt_down,seed growth (GO:0080112),0.00759
+salt_down,DNA metabolic process (GO:0006259),0.00822
+salt_down,negative regulation of biosynthetic process (GO:0009890),0.00869
+salt_down,cellular localization (GO:0051641),0.00955
+salt_down,negative regulation of macromolecule biosynthetic process (GO:0010558),0.0112
+salt_down,intracellular transport (GO:0046907),0.0113
+salt_down,stress response to metal ion (GO:0097501),0.0172
+salt_down,response to bacterium (GO:0009617),0.019
+salt_down,xenobiotic transport (GO:0042908),0.021
+salt_down,chromatin remodeling (GO:0006338),0.0217
+salt_down,cellular oxidant detoxification (GO:0098869),0.0222
+salt_down,enzyme-linked receptor protein signaling pathway (GO:0007167),0.0225
+salt_down,cell surface receptor protein serine/threonine kinase signaling pathway (GO:0007178),0.0228
+salt_down,cutin-based cuticle development (GO:0160062),0.0228
+salt_down,rRNA metabolic process (GO:0016072),0.0228
+salt_down,inorganic anion transport (GO:0015698),0.0238
+salt_down,lipid metabolic process (GO:0006629),0.0244
+salt_down,defense response to oomycetes (GO:0002229),0.0255
+salt_down,amine metabolic process (GO:0009308),0.0257
+salt_down,rRNA processing (GO:0006364),0.0278
+salt_down,biogenic amine biosynthetic process (GO:0042401),0.0278
+salt_down,amine biosynthetic process (GO:0009309),0.0281
+salt_down,response to external stimulus (GO:0009605),0.0306
+salt_down,response to metal ion (GO:0010038),0.0313
+salt_down,macromolecule localization (GO:0033036),0.0314
+salt_down,cellular component organization or biogenesis (GO:0071840),0.0324
+salt_down,organelle organization (GO:0006996),0.0328
+salt_down,amino acid transport (GO:0006865),0.0334
+salt_down,negative regulation of macromolecule metabolic process (GO:0010605),0.0352
+salt_down,carboxylic acid transport (GO:0046942),0.0385
+salt_down,response to starvation (GO:0042594),0.0394
+salt_down,export from cell (GO:0140352),0.0402
+salt_down,cinnamic acid ester metabolic process (GO:0009801),0.0447
+salt_down,gibberellic acid transmembrane transport (GO:1905200),0.0451
+salt_down,cell division (GO:0051301),0.0464
+salt_down,sexual reproduction (GO:0019953),0.0466
+salt_down,intracellular protein transport (GO:0006886),0.0479
+salt_down,negative regulation of gene expression (GO:0010629),0.0481
+salt_down,reactive oxygen species metabolic process (GO:0072593),0.0483
+salt_down,induced systemic resistance (GO:0009682),0.0484
+salt_down,"RNA splicing, via transesterification reactions (GO:0000375)",0.0487
+salt_down,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)",0.0491
+salt_down,response to metal ion starvation (GO:0180055),0.0492
+salt_down,multicellular organismal-level iron ion homeostasis (GO:0060586),0.0496

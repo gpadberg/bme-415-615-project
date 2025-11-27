@@ -1,0 +1,5 @@
+condition,n_sig_terms,shared_up_terms,shared_down_terms
+heat_up,25,14,1
+heat_down,8,14,1
+salt_up,146,14,1
+salt_down,114,14,1
