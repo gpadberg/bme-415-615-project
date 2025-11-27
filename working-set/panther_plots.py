@@ -47,7 +47,7 @@ def main():
     for cond, df in tops.items():
         plot_top15_bar(
             df,
-            title=f"{cond}: Top enriched GO terms (by FDR)",
+            title=f"{cond}: Most Significant Enriched GO Terms",
             outpath=plots_dir / f"{cond}_top15_bar.png"
         )
 
@@ -61,7 +61,7 @@ def main():
     # Plot 6: overlap heat vs salt (for up and down)
     overlap = plot_overlap(
         sigs,
-        title="Overlap of Enriched Processes (heat vs salt)",
+        title="Overlap of Enriched Processes Between Heat and Salt Conditions",
         outpath=plots_dir / "shared_counts.png",
         outpath_overlap=plots_dir / "overlapping_genes.txt"
     )
@@ -70,7 +70,7 @@ def main():
     if combined is not None:
         plot_heatmap_from_combined(
             combined,
-            title="Top GO terms across conditions (missing=0)",
+            title="Top GO Terms Across Conditions",
             outpath=plots_dir / "top_terms_heatmap.png"
         )
 
@@ -210,7 +210,8 @@ def plot_sig_term_counts(sig_tables, title, outpath):
 
     plt.figure(figsize=(7, 4))
     plt.bar(list(counts.keys()), list(counts.values()), color="#ff509d")
-    plt.ylabel("# significant GO terms (FDR ≤ 0.05)")
+    plt.ylabel("Number of Significant GO Terms (FDR ≤ 0.05)")
+    plt.xlabel("Condition and Regulation Direction")
     plt.title(title)
     plt.tight_layout()
     plt.savefig(outpath, dpi=200)
@@ -246,22 +247,14 @@ def plot_overlap(sig_tables, title, outpath, outpath_overlap):
         for term in overlap_down:
             f.write(f"{term}\n")
 
-    # # Print the lists
-    # print(f"\nOverlapping UP GO terms (heat_up ∩ salt_up): {len(overlap_up)}")
-    # for term in overlap_up:
-    #     print(term)
-
-    # print(f"\nOverlapping DOWN GO terms (heat_down ∩ salt_down): {len(overlap_down)}")
-    # for term in overlap_down:
-    #     print(term)
-
     # Plot counts
     shared_up = len(overlap_up)
     shared_down = len(overlap_down)
 
     plt.figure(figsize=(6, 4))
     plt.bar(["heat_up ∩ salt_up", "heat_down ∩ salt_down"], [shared_up, shared_down], color="#ff509d")
-    plt.ylabel("# shared significant GO terms")
+    plt.ylabel("Number of Shared Significant GO Terms")
+    plt.xlabel("Condition and Regulation Direction")
     plt.title(title)
     plt.tight_layout()
     plt.savefig(outpath, dpi=200)
